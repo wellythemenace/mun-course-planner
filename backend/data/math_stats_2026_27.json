@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "retrieved": "2026-11-23",
+    "scope": "First-year math and the math/statistics courses that CS prerequisites name, from the 2026-27 calendar (13.9 Mathematics and Statistics). Offered terms come from the Department of Mathematics and Statistics' usual-offerings table.",
+    "sources": [
+      "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/",
+      "https://mun.ca/math/undergraduates/course-schedule/"
+    ],
+    "caveats": [
+      "The department says offerings are not confirmed until the Registrar posts them.",
+      "Only BIOL 1001 and ECE 7410 (named by COMP 3550 and COMP 4301) are still not loaded."
+    ],
+    "program_note": "Required for the CS major per calendar 11.4.4: MATH 1000 or 1006, 1001, 2000, 2050, and STAT 2500 or 2550."
+  },
+  "courses": [
+    {
+      "code": "MATH 1090",
+      "title": "Algebra and Trigonometry",
+      "credit_hours": 3,
+      "subject_name": "Mathematics",
+      "prereq": null,
+      "prereq_text": "a combination of placement test and high school Mathematics scores acceptable to the Department, or the former MATH 103F",
+      "coreq": [],
+      "usually_offered": [
+        "Fall",
+        "Winter",
+        "Spring"
+      ],
+      "note": null,
+      "needs_review": "Credit hours assumed to be 3. Placement-test alternatives are treated as already satisfied. Offered terms are the department's usual pattern, not confirmed. Confirm in the registrar's schedule.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/"
+    },
+    {
+      "code": "MATH 1000",
+      "title": "Calculus I",
+      "credit_hours": 3,
+      "subject_name": "Mathematics",
+      "prereq": null,
+      "prereq_text": "MATH 1090 or 109B or a combination of placement test and high school Mathematics scores acceptable to the Department",
+      "coreq": [],
+      "usually_offered": [
+        "Fall",
+        "Winter",
+        "Spring"
+      ],
+      "note": "In practice you need MATH 1090 or a placement score. The planner assumes you have it.",
+      "needs_review": "Credit hours assumed to be 3. Placement-test alternatives are treated as already satisfied. Offered terms are the department's usual pattern, not confirmed. Confirm in the registrar's schedule.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/",
+      "required_for_major": true,
+      "alternatives": [
+        "MATH 1006"
+      ]
+    },
+    {
+      "code": "MATH 1001",
+      "title": "Calculus II",
+      "credit_hours": 3,
+      "subject_name": "Mathematics",
+      "prereq": {
+        "any": [
+          "MATH 1000",
+          "MATH 1006"
+        ]
+      },
+      "prereq_text": "MATH 1000 or MATH 1006 or the former MATH 1081",
+      "coreq": [],
+      "usually_offered": [
+        "Fall",
+        "Winter",
+        "Spring"
+      ],
+      "note": null,
+      "needs_review": "Credit hours assumed to be 3. Placement-test alternatives are treated as already satisfied. Offered terms are the department's usual pattern, not confirmed. Confirm in the registrar's schedule.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/",
+      "required_for_major": true,
+      "alternatives": []
+    },
+    {
+      "code": "MATH 1006",
+      "title": "Calculus for Life Sciences",
+      "credit_hours": 3,
+      "subject_name": "Mathematics",
+      "prereq": null,
+      "prereq_text": "MATH 1090 or 109B or a combination of placement test and high school Mathematics scores acceptable to the Department",
+      "coreq": [],
+      "usually_offered": [],
+      "note": "Not in the department's usual-offerings table.",
+      "needs_review": "Credit hours assumed to be 3. Placement-test alternatives are treated as already satisfied. Offered terms are the department's usual pattern, not confirmed. Confirm in the registrar's schedule.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/"
+    },
+    {
+      "code": "MATH 1050",
+      "title": "Finite Mathematics I",
+      "credit_hours": 3,
+      "subject_name": "Mathematics",
+      "prereq": null,
+      "prereq_text": "3 credit hours in Mathematics courses, or a combination of placement test and high school mathematics scores acceptable to the department or the former MATH 103F",
+      "coreq": [],
+      "usually_offered": [
+        "Fall",
+        "Winter"
+      ],
+      "note": "Not for students with 6 or more credit hours of Mathematics or Statistics at the 2000 level or above.",
+      "needs_review": "Credit hours assumed to be 3. Placement-test alternatives are treated as already satisfied. Offered terms are the department's usual pattern, not confirmed. Confirm in the registrar's schedule.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/"
+    },
+    {
+      "code": "MATH 1051",
+      "title": "Finite Mathematics II",
+      "credit_hours": 3,
+      "subject_name": "Mathematics",
+      "prereq": null,
+      "prereq_text": "3 credit hours in Mathematics courses, or a combination of placement test and high school mathematics scores acceptable to the department or the former MATH 103F",
+      "coreq": [],
+      "usually_offered": [
+        "Fall",
+        "Winter"
+      ],
+      "note": "Not for students with 6 or more credit hours of Mathematics or Statistics at the 2000 level or above.",
+      "needs_review": "Credit hours assumed to be 3. Placement-test alternatives are treated as already satisfied. Offered terms are the department's usual pattern, not confirmed. Confirm in the registrar's schedule.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/"
+    },
+    {
+      "code": "MATH 2000",
+      "title": "Calculus III",
+      "credit_hours": 3,
+      "subject_name": "Mathematics",
+      "prereq": "MATH 1001",
+      "prereq_text": "MATH 1001",
+      "coreq": [],
+      "usually_offered": [
+        "Fall",
+        "Winter",
+        "Spring"
+      ],
+      "note": null,
+      "needs_review": "Credit hours assumed to be 3. Placement-test alternatives are treated as already satisfied. Offered terms are the department's usual pattern, not confirmed. Confirm in the registrar's schedule.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/",
+      "required_for_major": true,
+      "alternatives": []
+    },
+    {
+      "code": "MATH 2050",
+      "title": "Linear Algebra I",
+      "credit_hours": 3,
+      "subject_name": "Mathematics",
+      "prereq": null,
+      "prereq_text": "A combination of placement test and high school Mathematics scores acceptable to the Department or 3 credit hours in first year Mathematics courses",
+      "coreq": [],
+      "usually_offered": [
+        "Fall",
+        "Winter",
+        "Spring"
+      ],
+      "note": "The planner assumes you meet the placement or first-year-math requirement.",
+      "needs_review": "Credit hours assumed to be 3. Placement-test alternatives are treated as already satisfied. Offered terms are the department's usual pattern, not confirmed. Confirm in the registrar's schedule.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/",
+      "required_for_major": true,
+      "alternatives": []
+    },
+    {
+      "code": "MATH 2320",
+      "title": "Discrete Mathematics",
+      "credit_hours": 3,
+      "subject_name": "Mathematics",
+      "prereq": {
+        "any": [
+          "MATH 1001",
+          "MATH 2050"
+        ]
+      },
+      "prereq_text": "MATH 1001 or 2050",
+      "coreq": [],
+      "usually_offered": [
+        "Fall",
+        "Winter"
+      ],
+      "note": "An alternative to COMP 1002 for the CS prerequisites.",
+      "needs_review": "Credit hours assumed to be 3. Placement-test alternatives are treated as already satisfied. Offered terms are the department's usual pattern, not confirmed. Confirm in the registrar's schedule.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/"
+    },
+    {
+      "code": "STAT 1510",
+      "title": "Statistical Thinking and Concepts",
+      "credit_hours": 3,
+      "subject_name": "Statistics",
+      "prereq": null,
+      "prereq_text": "none (co-requisite: Mathematics 1000)",
+      "coreq": [
+        "MATH 1000"
+      ],
+      "usually_offered": [],
+      "note": "Co-requisite MATH 1000. No credit if taken with or after STAT 2500 or 2550.",
+      "needs_review": "Credit hours assumed to be 3. Placement-test alternatives are treated as already satisfied. Offered terms are the department's usual pattern, not confirmed. Confirm in the registrar's schedule.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/"
+    },
+    {
+      "code": "STAT 2500",
+      "title": "Statistical Foundations for Data Analytics",
+      "credit_hours": 3,
+      "subject_name": "Statistics",
+      "prereq": null,
+      "prereq_text": "3 credit hours in Mathematics or Statistics courses, or a combination of placement test and high school Mathematics scores acceptable to the Department",
+      "coreq": [],
+      "usually_offered": [
+        "Fall",
+        "Winter",
+        "Spring"
+      ],
+      "note": "Credit restricted with STAT 2550. The planner assumes you meet the 3 credit hours or placement requirement.",
+      "needs_review": "Credit hours assumed to be 3. Placement-test alternatives are treated as already satisfied. Offered terms are the department's usual pattern, not confirmed. Confirm in the registrar's schedule.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/",
+      "required_for_major": true,
+      "alternatives": [
+        "STAT 2550"
+      ]
+    },
+    {
+      "code": "STAT 2550",
+      "title": "Statistics for Science Students",
+      "credit_hours": 3,
+      "subject_name": "Statistics",
+      "prereq": {
+        "any": [
+          "MATH 1000",
+          "MATH 1006"
+        ]
+      },
+      "prereq_text": "MATH 1000 or MATH 1006 or the former 1081",
+      "coreq": [],
+      "usually_offered": [
+        "Fall",
+        "Winter",
+        "Spring"
+      ],
+      "note": "Credit restricted with STAT 2500.",
+      "needs_review": "Credit hours assumed to be 3. Placement-test alternatives are treated as already satisfied. Offered terms are the department's usual pattern, not confirmed. Confirm in the registrar's schedule.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/9/"
+    }
+  ]
+}

@@ -1,0 +1,1247 @@
+{
+  "meta": {
+    "retrieved": "2026-11-18",
+    "scope": "Active COMP courses in the 2026-27 St. John's calendar. Left out: inactive courses, special topics (4715-4829 ranges), COMP 3700 (co-op only), COMP 499A/B (honours).",
+    "sources": [
+      "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/4/",
+      "https://mun.ca/computerscience/undergraduates/courses/undergraduate-course-offerings-for-current-year/",
+      "https://www.mun.ca/computerscience/undergraduates/courses/1000-level-courses-in-computer-science/",
+      "https://www.mun.ca/computerscience/undergraduates/courses/2000-level-courses-in-computer-science/",
+      "https://www.mun.ca/computerscience/undergraduates/courses/3000-level-courses-in-computer-science/",
+      "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/11/4/"
+    ],
+    "caveats": [
+      "offered_2026_27 comes from the department's TENTATIVE list. Spring 2027 is 'to be determined'. Other years are not covered.",
+      "Instructors are only those named in that tentative list.",
+      "Prerequisite structure: 'all' = every item, 'any' = at least one. 'credits_from' = credit hours in a subject at a level. Former course codes are ignored. Instructor-permission options cannot be modelled.",
+      "The official University Calendar is the final authority.",
+      "required_for_major and concentrations follow the 2026-27 calendar (11.4.4 and 11.4.9). Concentration courses outside the catalog (MATH 4250, STAT 4486 and other inactive or non-COMP courses) are not loaded."
+    ]
+  },
+  "courses": [
+    {
+      "code": "COMP 1000",
+      "title": "Computer Science - An Introduction",
+      "credit_hours": 3,
+      "prereq": null,
+      "prereq_text": "none listed",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {},
+      "needs_review": null,
+      "note": "Credit restricted with COMP 1003",
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 1001",
+      "title": "Introduction to Programming",
+      "credit_hours": 3,
+      "prereq": null,
+      "prereq_text": "none listed",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": true,
+      "required_for_minor": true,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "P. Patra",
+        "Winter 2027": "S. Bungay"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 1002",
+      "title": "Introduction to Logic for Computer Scientists",
+      "credit_hours": 3,
+      "prereq": null,
+      "prereq_text": "none listed",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": true,
+      "required_for_minor": true,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "S. McIntyre",
+        "Winter 2027": "S. McIntyre"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 1003",
+      "title": "Introduction to Object Oriented Programming and the Theory of Computation",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 1001",
+          {
+            "any": [
+              "COMP 1002",
+              "MATH 2320"
+            ]
+          }
+        ]
+      },
+      "prereq_text": "COMP 1001, COMP 1002 or Mathematics 2320",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": true,
+      "required_for_minor": true,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "R. Karaji",
+        "Winter 2027": "R. Karaji"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 1600",
+      "title": "Basic Computing and Information Technology",
+      "credit_hours": 3,
+      "prereq": null,
+      "prereq_text": "none listed",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {},
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 2001",
+      "title": "Object-Oriented Programming",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 1001",
+          {
+            "any": [
+              "COMP 1002",
+              "MATH 2320"
+            ]
+          },
+          "COMP 1003"
+        ]
+      },
+      "prereq_text": "A minimum grade of 65% in COMP 1001; a minimum grade of 65% in COMP 1002 or a minimum grade of 65% in MATH 2320; COMP 1003; and acceptance into a major, minor, or honours program in Computer Science, Computational Chemistry, or Data Science",
+      "coreq": [],
+      "requires_program_acceptance": "major, minor or honours (CS, Computational Chemistry, Data Science)",
+      "min_grades": {
+        "COMP 1001": 65,
+        "COMP 1002": 65,
+        "MATH 2320": 65
+      },
+      "required_for_major": true,
+      "required_for_minor": true,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "P. Patra",
+        "Winter 2027": "P. Patra"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 2002",
+      "title": "Data Structures and Algorithms",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 1001",
+          {
+            "any": [
+              "COMP 1002",
+              "MATH 2320"
+            ]
+          },
+          "COMP 1003"
+        ]
+      },
+      "prereq_text": "A minimum grade of 65% in COMP 1001; a minimum grade of 65% in COMP 1002 or a minimum grade of 65% in MATH 2320; COMP 1003; and acceptance into a major, minor, or honours program in Computer Science, Computational Chemistry, or Data Science",
+      "coreq": [],
+      "requires_program_acceptance": "major, minor or honours (CS, Computational Chemistry, Data Science)",
+      "min_grades": {
+        "COMP 1001": 65,
+        "COMP 1002": 65,
+        "MATH 2320": 65
+      },
+      "required_for_major": true,
+      "required_for_minor": true,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "R. Karaji",
+        "Winter 2027": "R. Karaji"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 2003",
+      "title": "Computer Architecture",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 1001",
+          {
+            "any": [
+              "COMP 1002",
+              "MATH 2320"
+            ]
+          }
+        ]
+      },
+      "prereq_text": "COMP 1001 with a minimum final grade of 65%; COMP 1002 or MATH 2320 with a minimum final grade of 65%; and acceptance into a major, minor, or honours program in Computer Science or Computational Chemistry",
+      "coreq": [],
+      "requires_program_acceptance": "major, minor or honours (CS, Computational Chemistry)",
+      "min_grades": {
+        "COMP 1001": 65,
+        "COMP 1002": 65,
+        "MATH 2320": 65
+      },
+      "required_for_major": true,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "S. McIntyre",
+        "Winter 2027": "S. McIntyre"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 2004",
+      "title": "Introduction to Operating Systems",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2002",
+          "COMP 2003"
+        ]
+      },
+      "prereq_text": "COMP 2002, COMP 2003, and acceptance into the major or honours program in Computer Science",
+      "coreq": [],
+      "requires_program_acceptance": "major or honours (CS)",
+      "min_grades": {},
+      "required_for_major": true,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "Y. Tavakoli",
+        "Winter 2027": "Y. Tavakoli"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 2005",
+      "title": "Software Engineering",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2001"
+        ]
+      },
+      "prereq_text": "COMP 2001 and acceptance into the major or honours program in Computer Science",
+      "coreq": [],
+      "requires_program_acceptance": "major or honours (CS)",
+      "min_grades": {},
+      "required_for_major": true,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "M. Hatcher",
+        "Winter 2027": "M. Hatcher"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 2006",
+      "title": "Computer Networking",
+      "credit_hours": 1,
+      "prereq": {
+        "all": [
+          "COMP 2001",
+          "COMP 2002"
+        ]
+      },
+      "prereq_text": "COMP 2001, COMP 2002, and acceptance into the major or honours program in Computer Science",
+      "coreq": [
+        "COMP 2004",
+        "COMP 2007",
+        "COMP 2008"
+      ],
+      "requires_program_acceptance": "major or honours (CS)",
+      "min_grades": {},
+      "required_for_major": true,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "M. Hatcher",
+        "Winter 2027": "M. Hatcher"
+      },
+      "needs_review": null,
+      "note": "1 credit hour. Co-requisites listed as taken at the same time or earlier.",
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 2007",
+      "title": "Introduction to Information Management",
+      "credit_hours": 1,
+      "prereq": {
+        "all": [
+          "COMP 2001",
+          "COMP 2002"
+        ]
+      },
+      "prereq_text": "COMP 2001, COMP 2002, and acceptance into the major or honours program in Computer Science",
+      "coreq": [
+        "COMP 2004",
+        "COMP 2006",
+        "COMP 2008"
+      ],
+      "requires_program_acceptance": "major or honours (CS)",
+      "min_grades": {},
+      "required_for_major": true,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "M. Hatcher",
+        "Winter 2027": "M. Hatcher"
+      },
+      "needs_review": null,
+      "note": "1 credit hour. Co-requisites listed as taken at the same time or earlier.",
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 2008",
+      "title": "Social Issues and Professional Practice",
+      "credit_hours": 1,
+      "prereq": {
+        "all": [
+          "COMP 2001",
+          "COMP 2002"
+        ]
+      },
+      "prereq_text": "COMP 2001, COMP 2002, and acceptance into the major or honours program in Computer Science",
+      "coreq": [
+        "COMP 2004",
+        "COMP 2006",
+        "COMP 2007"
+      ],
+      "requires_program_acceptance": "major or honours (CS)",
+      "min_grades": {},
+      "required_for_major": true,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "M. Hatcher",
+        "Winter 2027": "M. Hatcher"
+      },
+      "needs_review": null,
+      "note": "1 credit hour. Co-requisites listed as taken at the same time or earlier.",
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 3019",
+      "title": "Security and Privacy in Computer Systems",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2004",
+          "COMP 2005"
+        ]
+      },
+      "prereq_text": "COMP 2004, 2005",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "Y. Tavakoli"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 3100",
+      "title": "Web Programming",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2006",
+          "COMP 2007"
+        ]
+      },
+      "prereq_text": "COMP 2006, COMP 2007",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {},
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 3150",
+      "title": "Introduction to Human-Computer Interaction",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2001"
+        ]
+      },
+      "prereq_text": "COMP 2001",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "J. Henderson"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 3200",
+      "title": "Algorithmic Techniques for Artificial Intelligence",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2001",
+          "COMP 2002",
+          {
+            "any": [
+              "STAT 2500",
+              "STAT 2550"
+            ]
+          }
+        ]
+      },
+      "prereq_text": "COMP 2001 or the former COMP 2710, COMP 2002 or the former COMP 2711, and Statistics 2500 or Statistics 2550",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": "AI",
+      "offered_2026_27": {
+        "Fall 2026": "D. Churchill"
+      },
+      "needs_review": null,
+      "note": "The department's 2026-27 offerings page calls this 'Algorithmic Techniques for Smart Systems'.",
+      "concentrations": {
+        "AI": "required",
+        "VCG": "elective"
+      }
+    },
+    {
+      "code": "COMP 3201",
+      "title": "Introduction to Nature-Inspired Computing",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2001",
+          "COMP 2002",
+          {
+            "any": [
+              "STAT 2500",
+              "STAT 2550"
+            ]
+          }
+        ]
+      },
+      "prereq_text": "COMP 2001, COMP 2002 or the former COMP 2711, and Statistics 2500 or Statistics 2550",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Winter 2027": "M. Hatcher"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "AI": "elective"
+      }
+    },
+    {
+      "code": "COMP 3202",
+      "title": "Introduction to Machine Learning",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          {
+            "any": [
+              "COMP 3200",
+              {
+                "all": [
+                  "COMP 2001",
+                  "COMP 2002",
+                  {
+                    "any": [
+                      "STAT 2500",
+                      "STAT 2550"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "MATH 2050"
+        ]
+      },
+      "prereq_text": "COMP 3200; or COMP 2001 or the former COMP 2710, COMP 2002 or the former COMP 2711, and Statistics 2500 or Statistics 2550; and Mathematics 2050",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": "AI",
+      "offered_2026_27": {
+        "Fall 2026": "R. Karaji"
+      },
+      "needs_review": "Wording is ambiguous. I read it as (COMP 3200 OR (COMP 2001 AND COMP 2002 AND STAT 2500/2550)) AND MATH 2050. Confirm with the calendar or advisor.",
+      "note": null,
+      "concentrations": {
+        "AI": "required",
+        "DcC": "elective"
+      }
+    },
+    {
+      "code": "COMP 3300",
+      "title": "Interactive Technologies",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2001"
+        ]
+      },
+      "prereq_text": "COMP 2001 or the former COMP 2710",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": "VCG",
+      "offered_2026_27": {
+        "Fall 2026": "O. Meruvia-Pastor"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "VCG": "required"
+      }
+    },
+    {
+      "code": "COMP 3301",
+      "title": "Visual Computing and Applications",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2002",
+          "MATH 2000",
+          "MATH 2050"
+        ]
+      },
+      "prereq_text": "COMP 2002 or the former COMP 2711, Mathematics 2000, and Mathematics 2050",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": "VCG",
+      "offered_2026_27": {
+        "Fall 2026": "S. McIntyre"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "VCG": "required"
+      }
+    },
+    {
+      "code": "COMP 3400",
+      "title": "Data Preparation Techniques",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2001",
+          {
+            "any": [
+              "STAT 2500",
+              "STAT 2550"
+            ]
+          }
+        ]
+      },
+      "prereq_text": "COMP 2001; Statistics 2500 or Statistics 2550",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": "DcC",
+      "offered_2026_27": {
+        "Winter 2027": "Y. Tavakoli"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "DcC": "required"
+      }
+    },
+    {
+      "code": "COMP 3401",
+      "title": "Introduction to Data Mining",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2002",
+          "COMP 2007",
+          {
+            "any": [
+              "STAT 2500",
+              "STAT 2550"
+            ]
+          }
+        ]
+      },
+      "prereq_text": "COMP 2002 or the former COMP 2711, COMP 2007 or the former COMP 3754, and Statistics 2500 or Statistics 2550",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": "DcC",
+      "offered_2026_27": {
+        "Winter 2027": "R. Karaji"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "AI": "elective",
+        "DcC": "required"
+      }
+    },
+    {
+      "code": "COMP 3550",
+      "title": "Introduction to Bioinformatics",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "BIOL 1001",
+          {
+            "any": [
+              "COMP 1001",
+              "COMP 1002"
+            ]
+          },
+          {
+            "credits_from": {
+              "subject": "COMP or BIOL",
+              "min_level": 2000,
+              "hours": 6
+            }
+          }
+        ]
+      },
+      "prereq_text": "Biology 1001; one of COMP 1001, 1002 or 1510; and 6 credit hours in Computer Science or Biology course at the 2000 level or above, excluding Biology 2040, 2041, 2120; or permission of the course instructor",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {},
+      "needs_review": "Mixes subjects and has an instructor-permission option. COMP 1510 is inactive so it is left out. Simplified here. Confirm before relying on it.",
+      "note": null,
+      "concentrations": {
+        "DcC": "elective"
+      }
+    },
+    {
+      "code": "COMP 3600",
+      "title": "Algorithm Design and Analysis",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2002"
+        ]
+      },
+      "prereq_text": "COMP 2002",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": "ToC",
+      "offered_2026_27": {
+        "Winter 2027": "T. Wareham"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "ToC": "required"
+      }
+    },
+    {
+      "code": "COMP 3602",
+      "title": "Introduction to the Theory of Computation",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2002"
+        ]
+      },
+      "prereq_text": "COMP 2002 or the former COMP 2711",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": "ToC",
+      "offered_2026_27": {
+        "Fall 2026": "Y. Tavakoli"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "ToC": "required"
+      }
+    },
+    {
+      "code": "COMP 3730",
+      "title": "Introduction to Parallel Programming",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2001",
+          "COMP 2004"
+        ]
+      },
+      "prereq_text": "COMP 2001, COMP 2004",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {},
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "DcC": "elective",
+        "VCG": "elective"
+      }
+    },
+    {
+      "code": "COMP 3766",
+      "title": "Introduction to Robotic Manipulation",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2001",
+          "COMP 2002",
+          "MATH 2000",
+          "MATH 2050",
+          {
+            "any": [
+              "STAT 2500",
+              "STAT 2550"
+            ]
+          }
+        ]
+      },
+      "prereq_text": "COMP 2001 and COMP 2002, Mathematics 2000 and Mathematics 2050, and Statistics 2500 or Statistics 2550",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {},
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "AI": "elective",
+        "VCG": "elective"
+      }
+    },
+    {
+      "code": "COMP 4019",
+      "title": "Secure System Design",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 3019",
+          "COMP 3600"
+        ]
+      },
+      "prereq_text": "COMP 3019, 3600",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {},
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 4300",
+      "title": "Introduction to Game Programming",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2001",
+          "MATH 2050",
+          {
+            "credits_from": {
+              "subject": "COMP",
+              "min_level": 3000,
+              "hours": 6
+            }
+          }
+        ]
+      },
+      "prereq_text": "COMP 2001 or the former COMP 2710, Mathematics 2050, and 6 credit hours in Computer Science courses at the 3000 level or above (COMP 3301 and COMP 3731 are recommended)",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": "VCG",
+      "offered_2026_27": {
+        "Fall 2026": "D. Churchill"
+      },
+      "needs_review": null,
+      "note": "COMP 3731 is inactive. COMP 3301 is recommended, not required.",
+      "concentrations": {
+        "VCG": "required"
+      }
+    },
+    {
+      "code": "COMP 4301",
+      "title": "Computer Vision",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          {
+            "any": [
+              "COMP 3301",
+              "ECE 7410"
+            ]
+          }
+        ]
+      },
+      "prereq_text": "COMP 3301 or Electrical and Computer Engineering 7410 or the former Engineering 7854 or permission of the instructor",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Winter 2027": "K. Popuri"
+      },
+      "needs_review": "Also allows instructor permission, which the planner cannot model.",
+      "note": null,
+      "concentrations": {
+        "AI": "elective",
+        "VCG": "elective"
+      }
+    },
+    {
+      "code": "COMP 4302",
+      "title": "3D Computer Graphics",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 3301"
+        ]
+      },
+      "prereq_text": "COMP 3301",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Winter 2027": "M. Hamilton"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "VCG": "elective"
+      }
+    },
+    {
+      "code": "COMP 4303",
+      "title": "Artificial Intelligence in Computer Games",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 3200"
+        ]
+      },
+      "prereq_text": "COMP 3200",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Winter 2027": "J. Henderson"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "AI": "elective",
+        "VCG": "elective"
+      }
+    },
+    {
+      "code": "COMP 4304",
+      "title": "Data Visualization",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2001",
+          "COMP 2002",
+          {
+            "any": [
+              "COMP 3202",
+              "COMP 3400",
+              "COMP 3401"
+            ]
+          },
+          {
+            "any": [
+              "STAT 2500",
+              "STAT 2550"
+            ]
+          }
+        ]
+      },
+      "prereq_text": "COMP 2001 or the former COMP 2710; COMP 2002 or the former COMP 2711; one of COMP 3202, COMP 3400, or COMP 3401; and one of Statistics 2500 or Statistics 2550",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": "DcC",
+      "offered_2026_27": {},
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "DcC": "required",
+        "VCG": "elective"
+      }
+    },
+    {
+      "code": "COMP 4741",
+      "title": "Formal Languages and Computability",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 3602"
+        ]
+      },
+      "prereq_text": "COMP 3602 or the former COMP 3719",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {},
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "ToC": "elective"
+      }
+    },
+    {
+      "code": "COMP 4742",
+      "title": "Computational Complexity",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 3602"
+        ]
+      },
+      "prereq_text": "COMP 3602 or the former COMP 3719",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": "ToC",
+      "offered_2026_27": {
+        "Winter 2027": "A. Kolokolova"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "ToC": "required"
+      }
+    },
+    {
+      "code": "COMP 4743",
+      "title": "Graph Algorithms and Combinatorial Optimization",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 3600"
+        ]
+      },
+      "prereq_text": "COMP 3600 or the former COMP 3719",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {},
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "ToC": "elective"
+      }
+    },
+    {
+      "code": "COMP 4750",
+      "title": "Introduction to Natural Language Processing",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 3600"
+        ]
+      },
+      "prereq_text": "COMP 3600 or the former COMP 3719",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {},
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "AI": "elective",
+        "DcC": "elective",
+        "ToC": "elective"
+      }
+    },
+    {
+      "code": "COMP 4754",
+      "title": "Database Systems",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2004",
+          "COMP 2007"
+        ]
+      },
+      "prereq_text": "COMP 2004 or the former COMP 3725, COMP 2007 or the former COMP 3754",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": "DcC",
+      "offered_2026_27": {
+        "Fall 2026": "M. Hatcher"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "DcC": "required"
+      }
+    },
+    {
+      "code": "COMP 4759",
+      "title": "Computer Networks",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2006",
+          "COMP 2004"
+        ]
+      },
+      "prereq_text": "COMP 2006 or the former COMP 3715, and COMP 2004 or the former COMP 3725",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "K. Liu"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    },
+    {
+      "code": "COMP 4766",
+      "title": "Introduction to Autonomous Robotics",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2002",
+          "MATH 2000",
+          "MATH 2050",
+          {
+            "any": [
+              "STAT 2500",
+              "STAT 2550"
+            ]
+          }
+        ]
+      },
+      "prereq_text": "COMP 2002 or the former COMP 2711, Mathematics 2000, Mathematics 2050, and Statistics 2500 or Statistics 2550",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Winter 2027": "A. Vardy"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "AI": "elective",
+        "VCG": "elective"
+      }
+    },
+    {
+      "code": "COMP 4768",
+      "title": "Software Development for Mobile Devices",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2008",
+          "COMP 2006",
+          "COMP 2005"
+        ]
+      },
+      "prereq_text": "COMP 2008 or the former COMP 2760, COMP 2006 or the former COMP 3715, and COMP 2005 or the former COMP 3716",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {
+        "Fall 2026": "P. Patra"
+      },
+      "needs_review": null,
+      "note": null,
+      "concentrations": {
+        "VCG": "elective"
+      }
+    },
+    {
+      "code": "COMP 4770",
+      "title": "Team Project",
+      "credit_hours": 3,
+      "prereq": {
+        "all": [
+          "COMP 2003",
+          "COMP 2005",
+          "COMP 2006",
+          "COMP 2007",
+          {
+            "credits_from": {
+              "subject": "COMP",
+              "min_level": 3000,
+              "hours": 6
+            }
+          }
+        ]
+      },
+      "prereq_text": "COMP 2003, COMP 2005, COMP 2006, COMP 2007, and 6 credit hours in Computer Science courses at the 3000-level or above; or the former COMP 3715, 3716, 3724, 3754",
+      "coreq": [],
+      "requires_program_acceptance": null,
+      "min_grades": {},
+      "required_for_major": false,
+      "required_for_minor": false,
+      "concentration": null,
+      "offered_2026_27": {},
+      "needs_review": null,
+      "note": null,
+      "concentrations": {}
+    }
+  ],
+  "external_courses": [
+    {
+      "code": "MATH 2320",
+      "note": "Alternative to COMP 1002. Its own prerequisites are not loaded."
+    },
+    {
+      "code": "MATH 2000",
+      "note": "Its own prerequisites are not loaded."
+    },
+    {
+      "code": "MATH 2050",
+      "note": "Its own prerequisites are not loaded."
+    },
+    {
+      "code": "STAT 2500",
+      "note": "Alternative to STAT 2550. Its own prerequisites are not loaded."
+    },
+    {
+      "code": "STAT 2550",
+      "note": "Alternative to STAT 2500. Its own prerequisites are not loaded."
+    },
+    {
+      "code": "BIOL 1001",
+      "note": "Only needed for COMP 3550."
+    },
+    {
+      "code": "ECE 7410",
+      "note": "Only an alternative prerequisite for COMP 4301."
+    }
+  ]
+}

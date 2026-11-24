@@ -1,0 +1,7 @@
+# Add who teaches what (and when) for courses the department list does not cover.
+# One row per course, term and instructor. Then restart the API to load it.
+# Columns: course_code,term,instructor,department
+# Only add rows you have confirmed (registrar schedule or the department page).
+# ANTH 1031 / D. Banoub: reported by a student currently enrolled. Confirm on Brightspace or the registrar schedule.
+course_code,term,instructor,department
+ANTH 1031,Fall 2026,D. Banoub,Anthropology

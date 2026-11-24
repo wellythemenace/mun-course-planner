@@ -1,0 +1,7 @@
+# Starter ratings from people who actually took the course. Only add what you know firsthand.
+# Restart the API to load it. These show up as "seed" ratings, separate from app submissions.
+# ease: 1 (very hard) to 5 (very easy). workload_hours: hours per week (optional).
+# exam_type: none | take_home | in_person | mixed. readings: light | medium | heavy. marking: lenient | fair | harsh.
+# Leave a column empty if you do not know it.
+course_code,instructor,term,ease,workload_hours,assessments,exam_type,readings,marking,comment
+GEOG 1050,D. Banoub,Fall 2025,4,,,,,lenient,"Easy-going. Students who stay on top of the work can score 90 or more."

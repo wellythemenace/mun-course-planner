@@ -1,0 +1,5 @@
+# Courses you know are lighter or heavier than the planner's flat guess.
+# hours_per_week is a rough estimate of work per week. 9 or more counts as "heavy" (at most 2 heavy courses per term).
+# Real student ratings replace these once a course has 3 ratings. Add a row, restart the backend.
+course_code,hours_per_week,note
+MATH 2000,10,"Reported by a student as a hard course. Estimate, not measured."

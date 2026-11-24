@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "retrieved": "2026-11-23",
+    "scope": "Courses the Faculty of Science lists as electives with no prerequisites, three from a student's own list, and the Anthropology and Geography electives from the HSS pages. Titles and course codes were checked against the 2026-27 calendar.",
+    "caveats": [
+      "Credit hours are assumed to be 3. The sources do not state them (the calendar says 3 is normal).",
+      "Offerings, instructors and terms for electives are NOT loaded, except where added in data/offerings_extra.csv.",
+      "COMP 1400, 1401 and 2000 appear on the Science list but the 2026-27 calendar marks them inactive, so they are left out. EASC 2918 (Earth's Story) is also left out: the calendar marks it inactive, although the Earth Sciences department page still lists it.",
+      "The Science electives page is out of date in places (it used ERSC for Earth Sciences, whose code is EASC, and it had STAT 2500 wrong). The calendar wins.",
+      "Prerequisites for the Science electives were read from calendar excerpts, not every full entry. Entries flagged needs_review say what was not confirmed.",
+      "Anthropology and Geography electives (first and second year) come from the HSS electives pages, and the calendar excerpts agree with them. The HSS Anthropology page shows no prerequisites, though the faculty says electives have 0 or 1. Other HSS departments are not loaded yet."
+    ]
+  },
+  "courses": [
+    {
+      "code": "BIOL 2040",
+      "title": "Modern Biology and Human Society I",
+      "credit_hours": 3,
+      "subject_name": "Biology",
+      "prereq_text": "none",
+      "note": "Not acceptable as one of the required courses for the Minor, Major or Honours programs in Biology.",
+      "needs_review": "Credit hours assumed to be 3. No prerequisite appears in the calendar text I could read, but I could not read the full entry.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/2/"
+    },
+    {
+      "code": "BIOL 2041",
+      "title": "Modern Biology and Human Society II",
+      "credit_hours": 3,
+      "subject_name": "Biology",
+      "prereq_text": "none",
+      "note": "Not acceptable as one of the required courses for the Minor, Major or Honours programs in Biology.",
+      "needs_review": "Credit hours assumed to be 3. No prerequisite appears in the calendar text I could read, but I could not read the full entry.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/2/"
+    },
+    {
+      "code": "EASC 2150",
+      "title": "The Solar System",
+      "credit_hours": 3,
+      "subject_name": "Earth Sciences",
+      "prereq_text": "none",
+      "note": null,
+      "needs_review": "Credit hours assumed to be 3. Calendar 11.5 says this course has no Earth Sciences prerequisites; a prerequisite from another subject was not checked.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/5/"
+    },
+    {
+      "code": "EASC 2916",
+      "title": "Natural Hazards on a Dynamic Earth",
+      "credit_hours": 3,
+      "subject_name": "Earth Sciences",
+      "prereq_text": "none",
+      "note": "Not acceptable as one of the required courses for the Minor, Major or Honours programs in Earth Sciences.",
+      "needs_review": "Credit hours assumed to be 3. Calendar 11.5 says this course has no Earth Sciences prerequisites; a prerequisite from another subject was not checked.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/5/"
+    },
+    {
+      "code": "EASC 2917",
+      "title": "Gems: The Science and Politics",
+      "credit_hours": 3,
+      "subject_name": "Earth Sciences",
+      "prereq_text": "none",
+      "note": "Designed for students taking Earth Sciences as an elective subject.",
+      "needs_review": "Credit hours assumed to be 3. Calendar 11.5 says this course has no Earth Sciences prerequisites; a prerequisite from another subject was not checked.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/5/"
+    },
+    {
+      "code": "HUBI 1001",
+      "title": "Food, Drugs, and Your Body",
+      "credit_hours": 3,
+      "subject_name": "Human Biosciences",
+      "prereq_text": "none",
+      "note": "Equivalent to the former Biochemistry 1600 (credit for only one).",
+      "needs_review": "Credit hours assumed to be 3. No prerequisite appears in the calendar text I could read, but I could not read the full entry.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/8/"
+    },
+    {
+      "code": "HUBI 2002",
+      "title": "Introduction to Human Nutrition",
+      "credit_hours": 3,
+      "subject_name": "Human Biosciences",
+      "prereq_text": "none",
+      "note": "Equivalent to Biochemistry 2600 and Human Kinetics and Recreation 2600 (credit for only one). Taught online with in-person testing.",
+      "needs_review": "Credit hours assumed to be 3. No prerequisite appears in the calendar text I could read, but I could not read the full entry.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/8/"
+    },
+    {
+      "code": "OCSC 1000",
+      "title": "Exploration of the World Ocean",
+      "credit_hours": 3,
+      "subject_name": "Ocean Sciences",
+      "prereq_text": "none",
+      "note": null,
+      "needs_review": "Credit hours assumed to be 3. No prerequisite appears in the calendar text I could read, but I could not read the full entry.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/10/"
+    },
+    {
+      "code": "PSYC 1000",
+      "title": "Introduction to Psychology",
+      "credit_hours": 3,
+      "subject_name": "Psychology",
+      "prereq_text": "none",
+      "note": "PSYC 1001 is the second half of the introduction.",
+      "needs_review": "Credit hours assumed to be 3.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/12/"
+    },
+    {
+      "code": "ANTH 1031",
+      "title": "Introduction to Anthropology",
+      "credit_hours": 3,
+      "subject_name": "Anthropology",
+      "prereq_text": "none listed",
+      "note": "Same as the former ANTH 1000 or 2000. Counts as the alternative to FOLK 1000 for ANTH 2500.",
+      "needs_review": "Credit hours assumed to be 3.",
+      "source": "https://mun.ca/hss/electives/anthropology/"
+    },
+    {
+      "code": "FOLK 1000",
+      "title": "Introduction to Folklore",
+      "credit_hours": 3,
+      "subject_name": "Folklore",
+      "prereq_text": "not loaded",
+      "note": "FOLK 1000 is the prerequisite for most other Folklore courses.",
+      "needs_review": "Credit hours assumed to be 3.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-humanities-and-social-sciences/16/8/"
+    },
+    {
+      "code": "SCWK 1710",
+      "title": "Social Work Philosophy and Practice",
+      "credit_hours": 3,
+      "subject_name": "Social Work",
+      "prereq_text": "not loaded",
+      "note": null,
+      "needs_review": "Credit hours assumed to be 3. It is the first course of the Bachelor of Social Work program. Whether students outside that program can take it is not confirmed.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/school-of-social-work/11/"
+    },
+    {
+      "code": "ANTH 2260",
+      "title": "War and Aggression",
+      "credit_hours": 3,
+      "subject_name": "Anthropology",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": null,
+      "needs_review": "The HSS list shows no prerequisite for this course (the faculty says electives have 0 or 1). Credit hours assumed to be 3. Confirm in the calendar.",
+      "source": "https://mun.ca/hss/electives/anthropology/"
+    },
+    {
+      "code": "ANTH 2350",
+      "title": "Religious Institutions",
+      "credit_hours": 3,
+      "subject_name": "Anthropology",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": "Same as Religious Studies 2350.",
+      "needs_review": "The HSS list shows no prerequisite for this course (the faculty says electives have 0 or 1). Credit hours assumed to be 3. Confirm in the calendar.",
+      "source": "https://mun.ca/hss/electives/anthropology/"
+    },
+    {
+      "code": "ANTH 2409",
+      "title": "Critical Reading and Writing: Classics in Anthropology",
+      "credit_hours": 3,
+      "subject_name": "Anthropology",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": "A Critical Reading and Writing (CRW) course.",
+      "needs_review": "The HSS list shows no prerequisite for this course (the faculty says electives have 0 or 1). Credit hours assumed to be 3. Confirm in the calendar.",
+      "source": "https://mun.ca/hss/electives/anthropology/"
+    },
+    {
+      "code": "ANTH 2410",
+      "title": "Classics in Anthropology",
+      "credit_hours": 3,
+      "subject_name": "Anthropology",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": "Credit restricted with ANTH 2409.",
+      "needs_review": "The HSS list shows no prerequisite for this course (the faculty says electives have 0 or 1). Credit hours assumed to be 3. Confirm in the calendar.",
+      "source": "https://mun.ca/hss/electives/anthropology/"
+    },
+    {
+      "code": "ANTH 2411",
+      "title": "Anthropologists in the Field",
+      "credit_hours": 3,
+      "subject_name": "Anthropology",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": null,
+      "needs_review": "The HSS list shows no prerequisite for this course (the faculty says electives have 0 or 1). Credit hours assumed to be 3. Confirm in the calendar.",
+      "source": "https://mun.ca/hss/electives/anthropology/"
+    },
+    {
+      "code": "ANTH 2412",
+      "title": "Discourses of Endangerment",
+      "credit_hours": 3,
+      "subject_name": "Anthropology",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": null,
+      "needs_review": "The HSS list shows no prerequisite for this course (the faculty says electives have 0 or 1). Credit hours assumed to be 3. Confirm in the calendar.",
+      "source": "https://mun.ca/hss/electives/anthropology/"
+    },
+    {
+      "code": "ANTH 2413",
+      "title": "Culture, Society and Globalization",
+      "credit_hours": 3,
+      "subject_name": "Anthropology",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": null,
+      "needs_review": "The HSS list shows no prerequisite for this course (the faculty says electives have 0 or 1). Credit hours assumed to be 3. Confirm in the calendar.",
+      "source": "https://mun.ca/hss/electives/anthropology/"
+    },
+    {
+      "code": "ANTH 2414",
+      "title": "Critical Indigenous Studies",
+      "credit_hours": 3,
+      "subject_name": "Anthropology",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": null,
+      "needs_review": "The HSS list shows no prerequisite for this course (the faculty says electives have 0 or 1). Credit hours assumed to be 3. Confirm in the calendar.",
+      "source": "https://mun.ca/hss/electives/anthropology/"
+    },
+    {
+      "code": "ANTH 2415",
+      "title": "Anthropology of Food",
+      "credit_hours": 3,
+      "subject_name": "Anthropology",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": null,
+      "needs_review": "The HSS list shows no prerequisite for this course (the faculty says electives have 0 or 1). Credit hours assumed to be 3. Confirm in the calendar.",
+      "source": "https://mun.ca/hss/electives/anthropology/"
+    },
+    {
+      "code": "ANTH 2416",
+      "title": "Cultural Formations",
+      "credit_hours": 3,
+      "subject_name": "Anthropology",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": null,
+      "needs_review": "The HSS list shows no prerequisite for this course (the faculty says electives have 0 or 1). Credit hours assumed to be 3. Confirm in the calendar.",
+      "source": "https://mun.ca/hss/electives/anthropology/"
+    },
+    {
+      "code": "ANTH 2417",
+      "title": "The City",
+      "credit_hours": 3,
+      "subject_name": "Anthropology",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": null,
+      "needs_review": "The HSS list shows no prerequisite for this course (the faculty says electives have 0 or 1). Credit hours assumed to be 3. Confirm in the calendar.",
+      "source": "https://mun.ca/hss/electives/anthropology/"
+    },
+    {
+      "code": "GEOG 1050",
+      "title": "Geographies of Global Change",
+      "credit_hours": 3,
+      "subject_name": "Geography",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": "Credit may not be obtained for GEOG 1050 and any of the former GEOG 1000, 1001, 1010, 1011. Follows the Quantitative Reasoning guidelines.",
+      "needs_review": "Credit hours assumed to be 3.",
+      "source": "https://mun.ca/hss/electives/geography/"
+    },
+    {
+      "code": "GEOG 2001",
+      "title": "Cultural Geography",
+      "credit_hours": 3,
+      "subject_name": "Geography",
+      "prereq": "GEOG 1050",
+      "prereq_text": "GEOG 1050, or the former GEOG 1001, or the former GEOG 1011",
+      "note": null,
+      "needs_review": "Credit hours assumed to be 3. 'Or permission of the instructor' and 'former course' alternatives are not modelled.",
+      "source": "https://mun.ca/hss/electives/geography/"
+    },
+    {
+      "code": "GEOG 2102",
+      "title": "Physical Geography: The Global Perspective",
+      "credit_hours": 3,
+      "subject_name": "Geography",
+      "prereq": "GEOG 1050",
+      "prereq_text": "GEOG 1050, or the former GEOG 1001, or the former GEOG 1011, or students following a major in Environmental Physics",
+      "note": "Has 3 laboratory hours per week.",
+      "needs_review": "Credit hours assumed to be 3. 'Or permission of the instructor' and 'former course' alternatives are not modelled.",
+      "source": "https://mun.ca/hss/electives/geography/"
+    },
+    {
+      "code": "GEOG 2105",
+      "title": "Canada's Natural Environments and Landscapes",
+      "credit_hours": 3,
+      "subject_name": "Geography",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": null,
+      "needs_review": "Credit hours assumed to be 3. 'Or permission of the instructor' and 'former course' alternatives are not modelled.",
+      "source": "https://mun.ca/hss/electives/geography/"
+    },
+    {
+      "code": "GEOG 2195",
+      "title": "Introduction to Geomatics",
+      "credit_hours": 3,
+      "subject_name": "Geography",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": null,
+      "needs_review": "Credit hours assumed to be 3. 'Or permission of the instructor' and 'former course' alternatives are not modelled.",
+      "source": "https://mun.ca/hss/electives/geography/"
+    },
+    {
+      "code": "GEOG 2302",
+      "title": "Issues in Economic Geography",
+      "credit_hours": 3,
+      "subject_name": "Geography",
+      "prereq": "GEOG 1050",
+      "prereq_text": "GEOG 1050, or the former GEOG 1001, or the former GEOG 1011, or permission of the instructor",
+      "note": null,
+      "needs_review": "Credit hours assumed to be 3. 'Or permission of the instructor' and 'former course' alternatives are not modelled.",
+      "source": "https://mun.ca/hss/electives/geography/"
+    },
+    {
+      "code": "GEOG 2425",
+      "title": "Natural Resources",
+      "credit_hours": 3,
+      "subject_name": "Geography",
+      "prereq": "GEOG 1050",
+      "prereq_text": "GEOG 1050, or the former GEOG 1001, or the former GEOG 1011",
+      "note": null,
+      "needs_review": "Credit hours assumed to be 3. 'Or permission of the instructor' and 'former course' alternatives are not modelled.",
+      "source": "https://mun.ca/hss/electives/geography/"
+    },
+    {
+      "code": "GEOG 2495",
+      "title": "Regional Geography of Labrador",
+      "credit_hours": 3,
+      "subject_name": "Geography",
+      "prereq": null,
+      "prereq_text": "none listed",
+      "note": null,
+      "needs_review": "Credit hours assumed to be 3. 'Or permission of the instructor' and 'former course' alternatives are not modelled.",
+      "source": "https://mun.ca/hss/electives/geography/"
+    },
+    {
+      "code": "PSYC 1001",
+      "title": "Introduction to Psychology",
+      "credit_hours": 3,
+      "subject_name": "Psychology",
+      "prereq": "PSYC 1000",
+      "prereq_text": "PSYC 1000",
+      "note": "The second half of the two-semester introduction.",
+      "needs_review": "Credit hours assumed to be 3.",
+      "source": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/faculty-of-science/13/12/"
+    }
+  ]
+}
